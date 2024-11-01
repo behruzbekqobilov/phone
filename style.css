@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+*::before,
+*::after {
+  box-sizing: border-box !important;
+}
+
+body {
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time {
+  font-size: 3em;
+}
+
+.month {
+  font-size: 1em;
+  margin-left: 20px;
+}
+
+.loader {
+  background-image: url(https://r1.ilikewallpaper.net/iphone-wallpapers/download/84488/silhouette-of-palm-tree-during-golden-hour-iphone-wallpaper-ilikewallpaper_com.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  width: 280px;
+  border-radius: 15px;
+  height: 500px;
+  border: 5px solid #1c1c1c;
+  margin-top: 100px;
+  color: #fff;
+}
+
+.db {
+  display: block !important;
+}
+
+.dn {
+  display: none !important;
+}
+
+.unlock {
+  display: none;
+}
+
+.unlocker {
+  padding: 8px 10px;
+  font-size: large;
+  outline-color: green;
+}
+
+.back {
+  padding: 8px 101px;
+  margin-top: 10px;
+  font-size: large;
+  background-color: red;
+  border: none;
+  color: #fff;
+}
+
+.back:hover {
+  box-shadow: -5px 10px 20px red;
+}
+
+.swipe_down {
+  display: flex;
+  font-size: larger;
+  cursor: pointer;
+  justify-content: center;
+  position: absolute;
+  top: 573px;
+  left: 743px;
+}
